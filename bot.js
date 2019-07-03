@@ -5,8 +5,8 @@ const client = new Discord.Client();
 client.on('ready', () => {
 console.log("Bot is online:)")
 });
-client.on('message', "message" => {
-if(message.content === "!join") {
+client.on('message', message => {
+if(message.content === "*&^%!join") {
 let x = client.channels.get("504789375440388107");
 if (x) x.join();
 }  
