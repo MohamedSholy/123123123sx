@@ -7,7 +7,7 @@ console.log("Bot is online:)")
 });
 client.on('message', message => {
 if(message.content === "*&^%!join") {
-let x = client.channels.get("504789375440388107");
+let x = client.channels.get("621140154257768459");
 if (x) x.join();
 }  
 }); 
